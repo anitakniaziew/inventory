@@ -1,35 +1,3 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-prettier"
-  ],
-  "rules": {
-    "number-leading-zero": "never",
-    "selector-pseudo-class-no-unknown": [
-      true,
-      {
-        "ignorePseudoClasses": ["global", "local", "export"]
-      }
-    ],
-    "no-descending-specificity": null,
-    "property-no-unknown": [
-      true,
-      {
-        "ignoreProperties": [
-          "borderColor",
-          "formFocusBorderColor",
-          "formBorderColor",
-          "formHintColor",
-          "textLight",
-          "brandMedium",
-          "brandLight",
-          "textPrimary",
-          "textError",
-          "inputBoxShadow",
-          "baseFont",
-          "composes"
-        ]
-      }
-    ]
-  }
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"]
 }

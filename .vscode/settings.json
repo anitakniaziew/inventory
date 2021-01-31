@@ -1,5 +1,10 @@
 {
   "editor.formatOnSave": true,
   "prettier.jsxSingleQuote": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "stylelint.packageManager": "yarn"
 }
